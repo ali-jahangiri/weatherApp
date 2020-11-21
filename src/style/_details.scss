@@ -1,0 +1,82 @@
+.details_page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details__container {
+    background-color: $prime-c;
+    padding: 35px;
+    box-shadow: 0px 22px 50px -20px #94c7e9;
+    border-radius: 35px;
+}
+
+
+.details__intro {
+
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.details_city {
+    display: flex;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+
+    .details__city__box {
+        display: flex;
+
+        p {
+            &:last-child {
+                margin-left: 30px !important;
+            }
+        }
+    }
+}
+
+.details_temp {
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    color: white;
+    padding-top: 20px;
+
+    h3 {
+        color: #fcfcfc;
+    }
+
+    i {
+        font-size: 4.6rem;
+    }
+
+    p {
+        font-weight: 700;
+        font-size: 3rem;
+    }
+}
+
+.details_wind {
+    @extend .details_temp;
+}
+
+.details__pressure {
+    @extend .details_temp;
+}
+
+.details__humidity {
+    @extend .details_temp;
+}

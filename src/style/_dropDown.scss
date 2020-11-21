@@ -1,0 +1,14 @@
+.dropdown__container {
+    color: $btn-text;
+
+    cursor: pointer;
+
+    i {
+        transition: all .6s;
+
+        &:hover {
+            transform: rotate(90deg) !important;
+        }
+    }
+
+}
