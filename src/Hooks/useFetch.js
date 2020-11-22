@@ -1,7 +1,7 @@
 import { useEffect, useReducer } from "react";
 
 import key from "../apiKey";
-const baseUrl = "http://api.openweathermap.org/data/2.5/forecast?q=";
+const baseUrl = "https://api.openweathermap.org/data/2.5/forecast?q=";
 //action type
 const GET_DATA = "GET_DATE";
 const DATA_FAIL = "DATA_FAIL";
